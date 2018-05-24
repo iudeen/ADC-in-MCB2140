@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\obj\startup.o"
+".\obj\retarget.o"
+".\obj\sound.o"
+".\obj\data.o"
+--library_type=microlib --strict --scatter ".\Obj\Sound.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\Sound.map" -o .\Obj\Sound.axf

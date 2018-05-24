@@ -1,0 +1,5 @@
+This project uses the onboard ADC Potentiometer as temperature, and uses LEDs to show temperature levels. On reaching 7 levels of temperature
+(~200 in val) there will a warning given
+  Simulator: configured for software Simulator
+  MCB2130:   configured for on-chip Flash ROM
+             (used for production or target debugging)
